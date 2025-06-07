@@ -2,10 +2,6 @@
 
 An interactive Streamlit web application that predicts the winner of an IPL match based on real-time inputs using a trained machine learning model.
 
-# 🔗 Live Demo
-
-👉 Try it here
-
 # 📁 Project Structure
 
 app.py — Streamlit frontend script to run the app
