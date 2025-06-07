@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle
+import joblib
 import pandas as pd
 
 # Set page config
@@ -40,7 +40,7 @@ st.markdown("""
 st.title("🏏 IPL Win Predictor")
 
 # Load model
-pipe = pickle.load(open('pipe.pkl', 'rb'))
+pipe = joblib.load('pipe.pkl')
 
 # Teams and Cities
 team = [
